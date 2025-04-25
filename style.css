@@ -1,0 +1,426 @@
+body {
+  font-family: Mooli, sans-serif;
+  font-size: 1.2em;
+  margin: 0px;
+  box-sizing: border-box;
+  background-image: linear-gradient(900deg, aqua, 20%, black);
+  
+}
+
+h1 {
+    background-image: linear-gradient(900deg , rgb(1, 41, 54), 50%, #0f0606 50%);    
+    border: 1px solid #E5E7E9;
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    font-family:Lucida Handwritting;
+    text-align: center;
+    color: rgb(43, 149, 153);
+ 
+}
+h2 {
+ color: rgb(0, 255, 255);
+}
+h3, h4, h5, h6 {
+ color: #f2f3f8;
+}
+ul {
+  list-style-type: none;
+}
+
+h2, h3 {
+    background-image: linear-gradient(900deg , rgb(1, 41, 54), 50%, #0f0606 50%);    
+    border: 1px solid #E5E7E9;
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    font-family: Source serif Pro;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Etape 1 : couleur de fond pour le nav */
+nav {
+    background-color: #eeeeee;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    padding: 2px;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    z-index: 1;
+    
+}
+
+/* Etape 2 : suppression de la marge */
+
+nav ul {
+    margin: 0px;
+    padding-left: 0;
+    
+}
+
+
+
+/* Etape 4 : mise en ligne des items */
+nav li {
+    display: inline-block;
+    padding-left: 0;
+    margin: 5px;
+    
+}
+
+/* Etape 5 : centrer les items */
+
+/* Etape 6 : mise en forme des liens */
+nav a {
+    border: 2px solid rgb(1, 224, 253);;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);;
+    text-decoration: none;
+    padding: 0 1em;
+    color: #ffffff;
+}
+
+/* Etape 7 : positionnement du menu */
+nav {
+    position:sticky;
+    text-align: center;
+    top: 0px;
+    right: 10px;
+    padding: 2px;
+    display:block;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    z-index: 1;
+    font-size: 30px;
+
+    
+}
+
+/* Etape 8 : marge pour le responsive */
+nav li {
+    background-image: none;
+    display: inline-block;
+    padding-left: 0;
+    margin: 5px;
+}
+nav ul {
+    margin: 0px;
+    padding-left: 0;
+}
+
+/* Etape 9 : transition */
+nav a:hover {
+    background-color: rgb(4, 247, 255);
+    transition-duration: 1s;
+}
+
+/* Etape 10 : current */
+.current {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    
+    
+    
+    
+}
+
+/* Etape 11 : suppression de la couleur de fond pour le nav */
+nav {
+    background-color: #020101;
+}
+
+/* Etape 12 : le container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+nav {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    
+}
+
+#titre {
+    grid-column: 2;
+    grid-row: 2;
+}
+figure {
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.logo{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    height:auto;
+}
+.navbar-brand{
+    background-color: rgb(0, 0, 0);
+    padding-right:75%;
+    padding-top: 125px ;
+    height: auto;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00ffeeb4;
+}
+
+.present {
+    font-family: Source serif Pro;
+    margin: 20px;
+    font-size: 30px;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    display:block;
+    overflow: hidden;
+    
+    
+}
+
+
+
+
+
+
+
+p{
+    font-family: Source serif Pro;
+    margin: 20px;
+    font-size: 25px;
+    background-color: rgb(11,6,51);
+    color: white;
+    border-radius: 20px;
+    display:ruby-base-container;
+    text-align: center;
+}
+
+span{
+    font-size: 100px;
+    color: red;
+    font-family: Kunstler Script;
+}
+spanvert{
+    font-size: 100px;
+    color: green;
+    font-family: Kunstler Script;
+
+}
+spanorange{
+    font-size: 100px;
+    color: orange;
+    font-family: Kunstler Script;
+}
+.terrain{
+    border-radius: 30px;
+}
+
+.terraindeux{
+    float:right;
+    border-radius: 30px;
+}
+
+.schema{
+    border-radius: 90px;
+    float: right;
+    
+    
+    
+    
+
+}
+
+
+head{
+    font-family: Source serif Pro;
+    
+}
+
+strong{
+    font-size: 50px;
+    font-family: Vivaldi;
+    color: black;
+    text-align: center;
+
+    
+}
+form{
+    font-family: Source serif Pro;
+    color: white;
+    margin: 50px;
+    display:block ;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(60, 32, 184);
+    border-radius: 20px;
+        
+
+}
+
+b{
+    font-family: Source serif Pro;
+    color: rgb(11,6,51);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+    
+    
+}
+
+
+
+.contenu{
+    font-family: Source serif Pro;
+}
+
+.accueil{
+    font-family: Lucida ;
+}
+
+fieldset{
+    color: black;
+    background-color: rgb(60, 32, 184);
+    border-radius: 50px;
+    font-size: 25px;
+    
+    
+}
+#contenu{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    border-radius: 10px; 
+    text-align: left;
+    float: left;
+
+}
+#formulaire{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    text-align: left;
+    float: left;
+    
+
+   
+}
+input,select{
+    width: 70%;
+}
+#bouton{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    border-radius: 25px;
+
+}
+#forM{
+    position: relative;
+    float: none;
+    
+}
+label{
+    text-align: justify;
+}
+input{
+    text-align: justify;
+}
+.skyball{
+    border-radius: 30px;
+    height: 180px;
+}
+
+.regard{
+    height : auto;
+    float: right;
+    border-radius: 100px;
+    
+    
+}
+
+.insta{
+    float:right;
+    border-radius:50px ;
+}
+
+.harry{
+    float:right;
+    border-radius: 40px;
+    
+}
+
+.trefle{
+    float:right;
+    border-radius:80px;
+}
+
+.balle{
+    float:right;
+    border-radius: 25px;
+}
+
+.balle3{
+    border-radius: 30px;
+    float:right;
+
+
+}
+
+.prop{
+    border-radius: 30px;
+    float: right;
+    
+}
+
+.propulseur{
+    border-radius: 30px;
+
+}
+footer {
+    background-color: rgb(6, 8, 12);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+td{
+    background-color: rgba(127, 0, 255, 0.75);
+}
+
+th{
+    background-color: rgb(0, 255, 255);
+}
+
+.balleune{
+    float: left;
+    border-radius: 20px;
+}
+.contacts{
+    color:white;
+    font-family: Source serif Pro;
+
+}
+.alex{
+    border-radius: 10px;
+    
+}
